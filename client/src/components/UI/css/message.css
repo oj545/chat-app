@@ -1,0 +1,47 @@
+.my-message {
+  background-color: transparent;
+  display: flex;
+  justify-content: end;
+  margin-bottom: 1rem;
+  margin-right: 2rem;
+}
+.receiver-message {
+  background-color: transparent;
+  display: flex;
+  justify-content: start;
+  margin-bottom: 1rem;
+}
+
+.my-message div {
+  padding: 0.5rem;
+
+  background-image: linear-gradient(
+    to right,
+    rgba(15, 209, 243, 0.226),
+    rgba(7, 194, 185, 0.253)
+  );
+  border-radius: 5px;
+}
+
+.receiver-message div {
+  padding: 0.5rem;
+  background-image: linear-gradient(
+    to right,
+    rgba(11, 233, 48, 0.151),
+    rgba(11, 233, 59, 0.123)
+  );
+  border-radius: 5px;
+}
+.message span {
+  font-size: 2rem;
+  margin-right: 2rem;
+  color: aquamarine;
+}
+.message-text {
+  font-size: 2rem;
+  color: aquamarine;
+}
+.message-data {
+  font-size: 1.5rem;
+  color: white;
+}

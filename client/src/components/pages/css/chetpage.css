@@ -1,0 +1,12 @@
+.chet-page {
+  width: 100vw;
+  margin-left: 0.1rem;
+  grid-column: 0;
+  width: 100%;
+  position: fixed;
+  overflow: hidden;
+}
+.chet-page div {
+  padding: 0;
+  margin: 0;
+}

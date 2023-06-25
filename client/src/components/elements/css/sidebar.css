@@ -1,0 +1,56 @@
+.sidebar-controll {
+  display: flex;
+  flex-direction: column;
+  background-color: #212529;
+  margin-left: 0;
+  height: 100vh;
+  width: 100%;
+}
+.sidebar-list ul {
+  width: 100%;
+}
+.rooms-mnue {
+  display: flex;
+  text-align: center;
+}
+
+.rooms-mnue div {
+  width: 500%;
+  border: solid 1px black;
+}
+.room-link {
+  text-decoration: none;
+  list-style: none;
+}
+.sidebar-controll ul {
+  list-style: none;
+  padding: 0;
+}
+
+.sidbar-buttons {
+  display: flex;
+  justify-content: space-around;
+}
+.sidbar-buttons button {
+  width: 45%;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+.ROW {
+  padding: 0;
+}
+.btn-add {
+  width: 48%;
+  background-color: #212529;
+  border: solid 1px #63e6be;
+  border-radius: 5px;
+}
+.btn-add span {
+  font-size: 2rem;
+  margin-right: 1rem;
+  color: #63e6be;
+}
+.sidebar-controll svg {
+  font-size: 2rem;
+}

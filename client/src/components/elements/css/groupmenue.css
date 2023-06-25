@@ -1,0 +1,78 @@
+.group-mnue {
+  height: 100%;
+}
+.group-mnue ul {
+  width: 97%;
+  height: 80%;
+  margin-top: 2rem;
+}
+.btn-add-contact {
+  margin-top: 1rem;
+  margin-left: 1.9rem;
+  font-size: 1.9rem;
+}
+
+.contact-profile svg {
+  font-size: 1.5rem;
+  margin-bottom: 5px;
+  margin-left: 5px;
+}
+.contact {
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem;
+  color: aliceblue;
+  font-size: 1.5rem;
+  background-color: #495057;
+  border: solid 1px black;
+  width: 100%;
+  min-height: 35px;
+}
+.contact:hover {
+  background-color: #6be3f00c;
+  cursor: pointer;
+}
+.contact button {
+  border: none;
+  background-color: #495057;
+  color: aquamarine;
+}
+.contact button:hover {
+  border: none;
+  background-color: #6be3f00c;
+  color: aquamarine;
+}
+
+.contact svg {
+  font-size: 1.8rem;
+}
+.block svg {
+  color: red;
+}
+.group-mnue p {
+  display: flex;
+  font-weight: 600;
+  font-size: 1.8rem;
+  justify-content: center;
+  margin-top: 1rem;
+  color: aquamarine;
+}
+.add-contact-list li {
+  background-color: #495057;
+  color: wheat;
+}
+.add-contact-list li:hover {
+  border: none;
+  background-color: #6be3f00c;
+  color: aquamarine;
+}
+.contact-item input {
+  width: 20px;
+  height: 20px;
+  border: none;
+  border-radius: 50px;
+}
+.btn-save {
+  margin-left: 2rem;
+  margin-bottom: 2rem;
+}
